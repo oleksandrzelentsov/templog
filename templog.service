@@ -1,0 +1,11 @@
+[Unit]
+Description=Temperature logging service
+ 
+[Service]
+ExecStart=/bin/templog.sh
+StandardOutput=rsyslog
+ 
+[Install]
+WantedBy=multi-user.target
+Alias=templog.service
+
