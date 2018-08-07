@@ -1,8 +1,8 @@
 EXEC_NAME=templog.sh
-EXEC_PATH=/bin/
+EXEC_PATH=/bin
 
 RSYSLOG_CONF=templog.conf
-RSYSLOG_CONF_PATH=/etc/rsyslog.d/
+RSYSLOG_CONF_PATH=/etc/rsyslog.d
 
 SERVICE_NAME=templog.service
 SERVICE_PATH=/usr/lib/systemd/system
