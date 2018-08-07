@@ -10,7 +10,7 @@ It's a simple service that logs Raspberry PI's temperature into a logfile on you
 
 ## Installation
 ```bash
-sudo make install
+git clone https://github.com/oleksandrzelentsov/templog && cd templog && sudo make install
 ```
 
 ## Looking at logs
